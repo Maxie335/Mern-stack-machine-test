@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    height: 40px;
+    width: 100%;
+    background-color: yellow
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#login1{
+    padding: 20px;
+}
+#nav1{
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav1 a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+#searchbox{
+    width: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+#yaris>table{
+    width: 100%;
+    border-collapse:collapse;
+}
+#yaris>th{
+    text-align: left;
+    background-color:#ddd;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+#yaris>td{
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+#yaris>tbody>tr:nth-child(even){
+    background-color: #f2f2f2;
+}

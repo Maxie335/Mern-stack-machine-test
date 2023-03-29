@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "pass1",
+      "id": 1
+    },
+    {
+      "username": "user2",
+      "password": "pass2",
+      "id": 2
+    }
+  ],
+  "employees": [
+    {
+      "name": "Suman Khan",
+      "email": "sumankhan.sn@gmail.com",
+      "mobileno": "2332423424",
+      "designation": "Sales",
+      "gender": "male",
+      "course": "BCA",
+      "image": "C:\\fakepath\\Screenshot (10).png",
+      "id": 1
+    },
+    {
+      "name": "Max",
+      "email": "maxpayne@gmail.com",
+      "mobileno": "7884551253",
+      "designation": "Manager",
+      "gender": "female",
+      "course": "BSC",
+      "image": "C:\\fakepath\\Screenshot (12).png",
+      "id": 2
+    }
+  ]
+}
